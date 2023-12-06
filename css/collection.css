@@ -1,0 +1,157 @@
+@import url('./main.css');
+
+.Collection-content{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Collection-content .content-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Collection-content .content-nav .prev-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Collection-content .content-nav .prev-next .pag{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--blue-color) ;
+    font-size: 20px;
+    background: var(--white-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.Collection-content .content-nav .prev-next .pag:hover{
+    background: var(--blue-color);
+    color: var(--white-color);
+}
+
+.Collection-content .collection-cards{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    transition: 0.5s ease;
+}
+
+.Collection-content .collection-cards .part-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.5s ease;
+}
+
+.Collection-content .collection-cards .part-c .card{
+    width: 400px;
+    height: 400px;
+    background: url('../img/photo_2023-11-26_05-27-19.jpg');
+    /* overflow: hidden; */
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.Collection-content .collection-cards .part-c .card:hover .card-htext{
+    opacity: 1;
+}
+.Collection-content .collection-cards .part-c .xs:hover .card-htext{
+    opacity: 1;
+}
+.Collection-content .collection-cards .part-c .xs{
+    width: 816px;
+    height: 400px;
+    background: url('../img/cf.png') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s ease;
+
+}
+
+.Collection-content .collection-cards .part-c .xs .card-htext{
+    /* position: relative;
+    top: -50; */
+    width: 100%;
+    height: 400px;
+    /* left: 50px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background: var(--acc-color);
+    transition: 0.5s ease;
+   
+
+}
+
+.Collection-content .collection-cards .part-c .card .card-htext{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    /* left: 50px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background: var(--acc-color);
+    opacity: 0;
+    transition: 0.5s ease;
+
+   
+
+}
+.Collection-content .collection-cards .part-c .card .card-htext h1{
+    position: relative;
+    left: 50px;
+    color: var(--white-color);
+}
+.Collection-content .collection-cards .part-c .card .card-htext p{
+    position: relative;
+    left: 50px;
+    color: var(--white-color);
+}
+.Collection-content .collection-cards .part-c .card .card-htext ul{
+    position: relative;
+    left: 50px;
+    list-style: none;
+    color: var(--white-color);
+}
+.Collection-content .collection-cards .part-c .card .card-htext button{
+    position: relative;
+    left: 50px;
+    width: 150px;
+    height: 40px;
+    background: var(--white-color);
+    color: var(--blue-color);
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.Collection-content .collection-cards .part-c .card .card-htext button:hover{
+    background: var(--blue-color);
+    color: var(--white-color);
+}
+/* .Collection-content .collection-cards .top-cards */

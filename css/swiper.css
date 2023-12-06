@@ -1,0 +1,96 @@
+@import url('./main.css');
+
+.swiper {
+    width: 100%;
+    height: 78vh;
+}
+
+.swiper-slide {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background: url('../img/29326-3-audi-r8-blue.png') no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 350px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    transform: scale(0.9);
+    /* filter: drop-shadow(0 0 10px var(--acc-color)); */
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+/* .swiper-slide .text-slide{
+  width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  
+} */
+.swiper-slide .text-slide .text{
+    position: relative;
+    top: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.swiper-slide .text-slide p{
+    font-size: 1.8rem;
+    color: var(--blue-color);
+}   
+.swiper-slide .text-slide h1{
+    color: var(--blue-color);
+    font-size: 100px;
+}
+.swiper-slide .text-slide ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.swiper-slide .text-slide ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.swiper-slide .text-slide ul li span{
+   color: var(--black-color);
+}
+
+.swiper-slide .text-slide ul li small{
+    color: var(--blue-color);
+    font-size: 1.1rem;
+}
+.swiper-slide .text-slide .slide-btn{
+    width: 150px;
+    height: 48px;
+    background: var(--blue-color);
+    border: none;
+    font-size: 1rem;
+    border-radius: 12px;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.swiper-slide .text-slide .slide-btn:active{
+    outline: 2px solid var(--acc-color);
+}
+.swiper-slide .text-slide .slide-btn:hover{
+    background: var(--white-color);
+    color: var(--blue-color);
+}

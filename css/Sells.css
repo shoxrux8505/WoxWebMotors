@@ -1,0 +1,66 @@
+@import url('./main.css');
+
+
+.sells-content{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sells-content .img-content{
+    width: 700px;
+    height: 544px;
+    background: var(--grey-color-fbox);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sells-content .img-content img{
+    width: 650px;
+    height: 500px;
+
+}
+
+.sells-content .text-content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+
+}
+
+.sells-content .text-content h1{
+    font-size: 50px;
+    color: var(--sell-color);
+}
+
+.sells-content .text-content p{
+    color: var(--sell-p-color);
+    font-size: 1rem;
+}
+
+.sells-content .text-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sells-content .text-content ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 28px;
+}
+
+.sells-content .text-content ul li:nth-child(1){
+    color: var(--red-sell);
+    font-size: 28px;
+}

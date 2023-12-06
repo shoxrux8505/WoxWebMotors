@@ -1,0 +1,42 @@
+@import url('./main.css');
+
+.Expirance-content{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+     
+}
+.Expirance-content .img-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Expirance-content .img-content img{
+    position: relative;
+    left: 55px;
+    transform: scale(0.9);
+    filter: drop-shadow(0 0 10px var(--blue-color));
+}
+.Expirance-content .img-content span{
+    position: relative;
+    left: -50px;
+    /* transform: rotate(180deg); */
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: monospace;
+    transform: rotate(90deg);
+
+}
+    /* .Expirance-content img{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+    } */

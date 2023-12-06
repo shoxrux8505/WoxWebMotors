@@ -1,0 +1,67 @@
+@import url('./main.css');
+
+.Chouse-content{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background: var(--acc-color);
+}
+
+.Chouse-content .text-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    color: var(--white-color);
+}
+
+.Chouse-content .text-content h2{
+    font-size: 35px;
+
+}
+.Chouse-content .text-content ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Chouse-content .text-content ul li{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.Chouse-content .img-conetnt{
+    width: 600px;
+    height: 600px;
+    background: var(--grey-color-fbox);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.Chouse-content .text-content ul li h4{
+    position: relative;
+    left: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Chouse-content .text-content ul li h4 .marker{
+    width: 40px;
+    height: 40px;
+    background: var(--white-color);
+    border-radius: 50%;
+}
