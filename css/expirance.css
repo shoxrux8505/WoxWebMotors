@@ -9,6 +9,15 @@
     gap: 10px;
      
 }
+@media screen and (max-width: 390px){
+    .Expirance-content{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
 .Expirance-content .img-content{
     display: flex;
     align-items: center;

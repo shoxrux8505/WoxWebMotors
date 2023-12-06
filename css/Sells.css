@@ -10,6 +10,16 @@
     gap: 25px;
 }
 
+@media screen and (max-width: 390px){
+    .sells-content{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .sells-content .img-content img{
+        display: none;
+    }
+}
+
 .sells-content .img-content{
     width: 700px;
     height: 544px;

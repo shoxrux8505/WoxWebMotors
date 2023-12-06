@@ -88,6 +88,55 @@ nav ul li a:hover {
     color: var(--blue-color);
 }
 
+
+@media screen and (max-width: 390px) {
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    nav ul li{
+        display: none;
+
+    }
+
+    .main-content{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .main-content .swiper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .main-content .swiper .swiper-slide{
+        width: 100%;
+        background-position: 0 50px;
+        
+    }
+    .main-content .swiper .swiper-slide h1{
+        transform: scale(0.8);
+        font-size: 30px;
+        color: #FFF;
+    }
+    .main-content .swiper .swiper-slide p{
+        color: #FFF;
+    }
+    .Select-form{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 .add-item {
     display: flex;
     align-items: center;

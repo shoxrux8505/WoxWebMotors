@@ -52,8 +52,33 @@
     row-gap: 15px;
     transition: 0.5s ease;
 }
+@media screen and (max-width: 390px){
+    .Collection-content .collection-cards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+}
+.Collection-content .collection-cards .part-c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px 5px;
+    transform: scale(0.8);
+}
+.Collection-content .collection-cards .part-c .xs{
+    width: 400px;
+    height: 400px;
+    transform: scale(0.5);
+}
+}
 
 .Collection-content .collection-cards .part-c{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
